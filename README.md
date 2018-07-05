@@ -24,7 +24,7 @@ pod 'FBLeakDetectorVC'
 
 ## Usage
 
-Start by simply subclassing the UIViewController(s) that you'd like to monitor for potential leakage. A common practice is to let your BaseViewController subclass our FBLeakDetectorViewController. By doing so, you'll have a leak detector enabled for all view controllers that inherits your BaseViewController.
+Start by simply subclassing the UIViewController(s) that you'd like to monitor for potential leakage. A common practice is to let your BaseViewController subclass our [FBLeakDetectorViewController](https://github.com/IHEARTCOOKIES/FBLeakDetectorVC/blob/master/FBLeakDetectorVC/Classes/Public/FBLeakDetectorViewController.h). By doing so, you'll have a leak detector enabled for all view controllers that inherits your BaseViewController.
 
 Switch between the action types by overriding the getter as follows:
 
